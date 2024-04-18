@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Web Browser</title>
+    <!-- Link to your CSS stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Custom Web Browser</h1>
+    <!-- Container for displaying web content -->
+    <div id="web-content"></div>
+
+    <!-- Script tags to interact with Python backend -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Use jQuery or vanilla JavaScript to interact with the Python backend
+            // For example, you can make AJAX requests to fetch data or trigger actions
+        });
+    </script>
+</body>
+</html>
