@@ -20,7 +20,7 @@ subprocess.call(install3)
 install4 = ["pip", "install", "mimetypes"]
 subprocess.call(install4)
 import mimetypes
-
+print('dep install')
 # Define Firefox-like color palette
 firefox_colors = {
     "primary": "#ffffff",  # White text color
